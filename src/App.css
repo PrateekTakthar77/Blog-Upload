@@ -1,0 +1,90 @@
+/* BlogForm.css */
+/* Set the entire background to white */
+body {
+  background-color: #fff;
+  justify-content: center;
+}
+
+.form-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-field {
+  background-color: #ffffff;
+  color: #333;
+  display: block;
+  margin-bottom: 20px;
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea.input-field {
+  resize: vertical;
+  resize: horizontal;
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.file-input {
+  display: block;
+  width: 90%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.radio-group label {
+  margin-right: 20px;
+}
+
+.button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Center the form elements */
+.input-field,
+textarea.input-field,
+.file-input,
+.button {
+  margin: 0 auto;
+}
